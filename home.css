@@ -59,7 +59,7 @@
     align-items: center;
 }
 .level{
-    background-image: url(img/Home/bg_level.png);  
+    background-image: url(bg_level.png);  
 }
 .level_wrapper{
     margin: 60px 0;
