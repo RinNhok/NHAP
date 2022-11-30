@@ -59,7 +59,7 @@
     align-items: center;
 }
 .level{
-    background-image: url(../img/Home/bg_level.png);  
+    background-image: url(img/Home/bg_level.png);  
 }
 .level_wrapper{
     margin: 60px 0;
@@ -100,7 +100,7 @@
 
 /*WHY*/
 .why{
-    background-image: url(../img/Home/background_why.png);
+    background-image: url(background_why.png);
     margin-top: 10px;
 }
 .why_wrapper{
@@ -148,7 +148,7 @@
     width: 50%;
 }
 .discover_right_top{
-    background-image: url(../img/Home/img_Kham\ pha_2.png) ;
+    background-image: url(Home/img_Kham\ pha_2.png) ;
     background-size: 100% 100%;
     width: 90%;
     height: 250px;
