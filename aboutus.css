@@ -1,0 +1,140 @@
+body{
+    background-image: url(../img/About/background_full-2-body-about.jpg);
+    background-size: cover;
+    /* height: 3000px; */
+}
+
+/*END HEADER*/
+
+/* MAIN */
+/* About */
+.aboutus, .introduce, .menu_about{
+    margin: 60px 0px;
+}
+.aboutus_wrapper, .introduce_wrapper, .menu_about_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+.about_left h1{
+    margin-top: 0px;
+}
+.about_left{
+    width: 45%;
+    margin-right: 45px;
+}
+.about_left p{
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+.about_left span{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF6348;
+}
+
+.vision{
+    display: flex;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid #44BD32;
+    margin: 30px 0px;
+    width: calc(100% / 2 - 45px);
+}
+.icn_Intro{
+    margin-right: 30px;
+    width: 40%;
+    min-width: 100px;
+}
+.text_Intro{
+    width: 60%;
+}
+.text_Intro h3{
+    margin: 0px 0px 15px 0px;
+}
+.text_Intro p{
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+/* Menu About */
+.menu_about{
+    margin-bottom: 30px;
+}
+
+.menu_about_content{
+    width: calc(100% / 4 - 45px); 
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, .5);
+    margin: 30px 0px;
+    padding: 30px;
+}
+.menu_about_content h3{
+    color: white;
+    margin: 30px 0px 0px 0px;
+}
+.PP{
+    background-color: #F3794A;
+}
+.CT{
+    background-color: #207094;
+}
+.TG{
+    background-color: #FF6348;
+}
+.HP{
+    background-color: #8CCB6D;
+}
+.PP:hover, .CT:hover, .TG:hover, .HP:hover{
+    background-color: #ffa200;
+    cursor: pointer;
+}
+/* Place */
+.place{
+    margin-top: 100px;
+}
+.place_title h1, p{
+    text-align: center;
+    margin: 30px 0px;
+}
+.place_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.place_left img, .place_right img{
+    margin: 30px 0px;
+}
+.place_left h3, .place_right h3{
+    margin: 30px 0px;
+}
+.place_left, .place_right{
+    width: calc(100% / 2 - 45px); 
+    height: 100%;
+}
+.place_left p, .place_right p{
+    text-align: justify;
+}
+/* Call action */
+.call_action{
+    margin-bottom: 300px;
+}
+.call_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call_wrapper h1{
+    color: #005C85;
+    margin-right: 60px;
+}
+
+
+
+
+
+
+/*END MAIN*/

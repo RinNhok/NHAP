@@ -1,0 +1,49 @@
+
+/* @media screen and (max-width: 768px) {
+    .introduce_wrapper {
+        align-items: stretch;
+    }
+    .introduce_wrapper > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduce_wrapper .icn_Intro {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}   
+
+@media screen and (max-width: 576px) {
+    .introduce_wrapper {
+        flex-direction: column;
+    }
+
+    .introduce_wrapper > div {
+        width: 100%;
+    }
+} */
+
+
+
+html {
+    font-size: 12px;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 14px
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 18px;
+    }
+  }

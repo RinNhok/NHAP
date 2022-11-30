@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kodchasan', sans-serif;
+}
+body{
+    width: 100%;
+    /* height: 5600px; */
+    background-image: url(../img/Home/background_full-2-body.jpg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    margin-right: 2px;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+.title h1{
+    text-align: center;
+    margin: 30px;
+    text-align: center;
+}
+h1{
+    color: #44BD32;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+h3{
+    margin: 0px 30px 30px 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF6348;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+.xemthem a{
+    color: #FF6348;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration:underline;
+    margin-right: 10px;
+}
+.xemthem a:hover{
+    color:#ea4123;
+    font-weight: 700;
+}
+.container_90{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*MENU*/
+.top-bar{
+    background-color: #E9F2EF;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FF6348;
+    font-weight: 900;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color:#ffa200;
+    font-weight: 700;
+  }
+.navbar-light .navbar-nav .nav-link {
+    color: hsla(0, 0%, 0%, 0.893);
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-brand{
+    margin-right: 20px;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.dropdown-menu{
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgb(92, 92, 92);
+}
+.dropdown-menu a{
+    font-size: 18px;
+    font-weight: 600;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #fff9ec;
+}
+  
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #44BD32;
+}
+/* BUTTON đăng kí- đăng nhập*/
+.material-icons-two-tone{
+    color: #FF6348;
+    font-size: 38px;
+} 
+
+/* BUTTON đăng kí học*/
+.btn{
+    font-size: 20px;
+    font-weight: 650;
+    padding: 5px 15px;
+    background-color: #FF6348;
+    border-radius: 50px;
+    color: white;
+    border: #FF6348;
+} 
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #ffa200;
+    border-color: #ffa200;
+}  
+.btn-outline-success:focus, .btn-outline-success.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 152, 79, 0.493);
+}
+  
+.btn-outline-success.disabled, .btn-outline-success:disabled {
+    color: white;
+    background-color: #FF6348;
+}  
+.btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,.show > .btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #ffa200;
+    border-color: #ffa200;
+} 
+.btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,.show > .btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 152, 79, 0.493);
+}
+
+
+
+

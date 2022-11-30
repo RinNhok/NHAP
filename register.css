@@ -1,0 +1,150 @@
+/*MAIN*/
+/*form*/
+/* .form_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+.register_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.register_left{
+    width: 72%;
+}
+.form{
+    margin: 120px 60px 200px 0px;
+}
+.form_content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 6px rgb(92, 92, 92); 
+    margin: 50px auto 0px auto;
+    padding: 30px;
+}
+.form .form_frame{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.info_child{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+label{
+    font-size: 18px;
+    color: #0C9447;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.margin_form{
+    margin-right: 45px;
+}
+.name_child{
+    width: 65%;
+}
+.name_child input[type=text], .info_adult input{
+    border: none;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    padding: 12px 0px;
+    font-size: 18px;
+    color: rgb(12, 12, 12);
+}
+.info_choose{
+    display: flex;
+    justify-content: space-between;
+}
+.section_info{
+    margin-top: 10px;
+}
+select, option{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+.info_adult input{
+    width: 100%;
+}
+.ask_learn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.ask_learn label{
+    color: rgb(12, 12, 12);
+}
+.margin1{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.margin{
+    margin-right: 25px;
+}
+.click_dk{
+    width: 100%;
+    padding: 10px;
+    background-color: #F05A21;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click_dk a{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.click_dk:hover{
+    background-color:#e24709;
+}
+
+.register_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px 30px 20px; 
+    border: 2px dashed #FF6348;
+    border-radius: 15px;
+    margin-top: 120px;
+}
+/* .lichhoc{
+    background-image: url(img/Register/lich_hoc.png); 
+    background-size: 100% 100%; 
+    width: 300px;
+    margin-bottom: 30px;
+} */
+.lichhoc h3{
+    /* text-align: center; */
+    color: #FF6348;
+}
+.phone, .time{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    margin-bottom: 15px;
+}
+.icon_info{
+    width: 42px;
+    height: 42px;
+}
+.phone p, .time p{
+    margin-left: 15px;
+}

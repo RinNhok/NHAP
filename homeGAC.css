@@ -1,0 +1,85 @@
+/*INFO*/
+.info{
+    margin: 60px 0px;
+}
+.info .col-7{
+    padding: 0px;
+}
+.info .col-7 h1{
+    line-height: 45px;
+}
+.info .col-4{
+    padding: 50px 40px 0px 40px; 
+    border: 2px dashed #FF6348;
+    border-radius: 15px;
+}
+.phone, .time{
+    display: flex;
+}
+.time{
+    margin-bottom: 15px;
+}
+.icon_info{
+    width: 42px;
+    height: 42px;
+}
+.phone p, .time p{
+    margin-left: 15px;
+}
+
+/*LEVEL*/
+.level{
+    background-image: url(../img/Home/bg_level.png);  
+    background-size: 100% 100%;
+}
+
+.level .container{
+    padding: 60px 0px;
+}
+.level .level_title h1{
+    margin-bottom: 60px;
+    text-align: start;
+}
+.level_course h3{
+    font-size: 24px; 
+    color:#000000;
+    text-align: start;
+    margin-left: 0px;
+}
+.level_img img, .why .col-5 img{
+    width: 100%;
+}
+
+.level_img{
+    margin: 30px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, .5);
+}
+.level_title h1{
+    text-shadow: 0px 0px 3px rgb(255, 255, 255); ;
+}
+.level_course p{
+    color: white;
+    margin-bottom: 20px;
+}
+.lv a{
+    color: #d40000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*WHY*/
+.why{
+    background-image: url(../img/Home/background_why.png);
+    background-size: 100% 100%;
+    margin-top: 10px;
+}
+.why_title{
+    margin: 60px 0px;
+}
+.xemthem_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
